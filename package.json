@@ -1,0 +1,11 @@
+{
+  "name": "joe-and-liana",
+  "description": "Our wedding website in node and react",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.8"
+  }
+}
