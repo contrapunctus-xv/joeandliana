@@ -7,7 +7,6 @@ import webpack from 'webpack';
 import path from 'path';
 
 const app = express();
-const port = 8080;
 const compiler = webpack(config);
 let buildUrl;
 
@@ -31,6 +30,4 @@ app.get('/', (request, response) => {
     response.send(layout);
 });
 
-app.listen(port, () =>
-    console.log('Our app is running on http://localhost:' + port)
-);
+app.listen(process.env.PORT || 8080);
