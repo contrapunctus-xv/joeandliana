@@ -25,7 +25,7 @@ else if(process.env.NODE_ENV === 'production') {
 }
 
 const INDEX_PATH = path.resolve(__dirname,'../src/index.html.pug');
-app.get('/', (request, response) => {
+app.get('*', (request, response) => {
     const layout = renderFile(INDEX_PATH, {__BUILD_URL__: buildUrl});
     response.send(layout);
 });

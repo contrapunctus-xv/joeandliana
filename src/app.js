@@ -1,11 +1,11 @@
 import React from 'react';
-import { HomePage } from 'src/components';
+import Routes from 'src/routes';
 
 /**
  * Renders App component.
  * @return {ReactElement} HelloWorld component
  */
 const App = () =>
-    <HomePage />
+    <Routes />;
 
 export default App;
