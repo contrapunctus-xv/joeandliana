@@ -7,10 +7,10 @@ import webpack from 'webpack';
 import path from 'path';
 
 const app = express();
-const compiler = webpack(config);
 let buildUrl;
 
 if (!process.env.NODE_ENV) {
+    const compiler = webpack(config);
     app.use(devMiddleware(compiler, {
         noInfo: true,
         publicPath: config.output.publicPath

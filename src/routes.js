@@ -1,10 +1,12 @@
 import React from 'react';
 import { browserHistory, Route, Router } from 'react-router';
-import { HomePage } from 'src/components';
+import { HomePage, Navigation } from 'src/components';
 
 const Routes = () => (
     <Router history={ browserHistory }>
-        <Route path="/" component={ HomePage } />
+        <Route component={ Navigation }>
+            <Route path="/" component={ HomePage } />
+        </Route>
     </Router>
 );
 
