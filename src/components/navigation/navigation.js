@@ -6,10 +6,10 @@ import { LinkContainer } from 'react-router-bootstrap';
 const Navigation = ({ children }) => {
     return (
         <div>
-            <Navbar inverse collapseOnSelect>
+            <Navbar default collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="/">Liana and Joe</a>
+                        <a href="/">J+L</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
@@ -18,22 +18,25 @@ const Navigation = ({ children }) => {
                         <LinkContainer to="/">
                             <NavItem eventKey={1}>Home</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/howwemet">
-                            <NavItem eventKey={2}>How We Met</NavItem>
+                        <LinkContainer to="/our-story">
+                            <NavItem eventKey={2}>Our Story</NavItem>
                         </LinkContainer>
                         <LinkContainer to="/faq">
                             <NavItem eventKey={3}>FAQ</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/dayofinfo">
-                            <NavItem eventKey={4}>Day of Info</NavItem>
+                        <LinkContainer to="/wedding-day-info">
+                            <NavItem eventKey={4}>Wedding Day Info</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/contactus">
+                        <LinkContainer to="/contact-us">
                             <NavItem eventKey={5}>Contact Us</NavItem>
                         </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
             {children}
+            <footer className="footer">
+                <div className="footer-text">footer text</div>
+            </footer>
         </div>
     )
 };
