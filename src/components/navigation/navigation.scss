@@ -1,7 +1,15 @@
 .navbar-default {
-  background-color: #0f006f;
   border-color: #FFFFB2;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Overlock", cursive;
+}
 
+.navbar-brand {
+  border-color: #FFFFB2;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Dancing Script", cursive;
 }
 
 .footer {
@@ -9,9 +17,25 @@
   padding-bottom: 25px;
   margin-bottom: 40px;
   margin-top: 50px;
+  height: 60px;
+  font-family: "Overlock", cursive;
+
   .footer-text {
     text-align: center;
     vertical-align: middle;
     padding-top: 25px;
+    position: block;
+    float: left;
+    padding-left: 40px;
+    margin-top: -5px;
+  }
+  .footer-text-two {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    position: block;
+    float: right;
+    padding-right: 40px;
+    margin-top: -5px;
   }
 }
