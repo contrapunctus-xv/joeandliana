@@ -6,7 +6,7 @@ import React from 'react';
  */
 const HomePage = () =>
     <div className="container" id="homepage">
-        <div className="header">
+        <div>
             <h1>Liana & Joseph</h1>
         </div>
         <div className="container" id="photos">

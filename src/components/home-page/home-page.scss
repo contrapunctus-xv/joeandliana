@@ -1,14 +1,14 @@
 #homepage {
-  color: #338F8E;
   text-align: center;
   height: 100%;
   margin: auto;
-  font-family: "Dancing Script", cursive;
 }
 
 .header h1 {
-  font-size: 36px;
-  color: darkslategrey;
+  font-size: 48px;
+  color: darksla;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 30px;
 }
 
 #photos {
@@ -26,7 +26,7 @@
 }
 
 .iceland {
-  background-color: #FEFDFB;
+  background-color: ivory;
 }
 
 .iceland-photo {
@@ -41,20 +41,3 @@
   border: 15px solid;
   border-image: url('http://www.designbolts.com/wp-content/uploads/2013/02/Grunge-Seamless-Pattern-For-Website-Background.jpg') 25;
 }
-
-
-//
-//.grey-border {
-//  border-radius: 20px;
-//  display: inline-block;
-//  position: absolute;
-//  transform: rotate(90deg);
-//  top: 0;
-//  left: 0;
-//  margin-top: -14.75%;
-//  margin-right: auto;
-//  margin-left: 27.5%;
-//  width: 45%;
-//  height: auto;
-//  z-index: -1;
-//}
