@@ -16,7 +16,7 @@ const OurStory = () =>
                 <p className="subheader">But then, a notice - "One of your bagels liked you!"<br/><br/></p>
             </div>
             <div id="photo">
-                <img className="berry-photo" src="http://res.cloudinary.com/hfstexbmw/image/upload/v1499658612/joeandliana_DearStacey_Wedding_Photography_long_island0145_pxipbl.jpg"/>
+                <img className="berry-photo" src="http://res.cloudinary.com/hfstexbmw/image/upload/v1499661351/joeandliana_DearStacey_Wedding_Photography_long_island0171_q1fgwi.jpg"/>
             </div>
             <div id="photo">
 
