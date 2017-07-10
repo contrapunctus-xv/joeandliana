@@ -4,7 +4,7 @@ const ContactUs = () =>
     <div className="container" id="contactus">
         <div>
             <h1>Contact Us</h1>
-            <img className="wren-photo" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1911868_10203576663481354_1964773106549014430_n.jpg?oh=8389de2da4a4a1c8efc719234cf3500b&oe=592D62C8"/>
+            <img className="wren-photo" src="http://res.cloudinary.com/hfstexbmw/image/upload/v1499658615/joeandliana_DearStacey_Wedding_Photography_long_island0027_f8emaa.jpg"/>
             <div className="text-body" id="email-link"><a href="mailto:liana.and.joseph@gmail.com">Click Here To Email Us!</a></div>
         </div>
     </div>;
