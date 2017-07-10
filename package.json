@@ -21,7 +21,6 @@
     "import-glob-loader": "^1.1.0",
     "lodash.assign": "^4.0.9",
     "node-sass": "^4.5.0",
-    "nodemailer": "^3.1.4",
     "path": "^0.12.7",
     "postcss-loader": "^1.2.2",
     "pug": "^2.0.0-beta11",
